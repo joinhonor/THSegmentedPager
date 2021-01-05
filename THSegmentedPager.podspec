@@ -9,5 +9,5 @@ Pod::Spec.new do |s|
   s.platform     	= :ios, '7.0'
   s.requires_arc 	= true
   s.source_files 	= 'THSegmentedPager/*.{h,m}'
-  s.dependency 		'HMSegmentedControl', '~>1.5.4'
+  s.dependency 		'HMSegmentedControl', '~>1.5.3'
 end

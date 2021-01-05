@@ -11,8 +11,8 @@
 		502EEB741AE2DBFF000CFA05 /* THSegmentedPagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 502EEB731AE2DBFF000CFA05 /* THSegmentedPagerTests.m */; };
 		502EEB771AE2DCBD000CFA05 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 502EEB761AE2DCBD000CFA05 /* Storyboard.storyboard */; };
 		6A1FCE59DEC24EB61262FDDC /* libPods-THSegmentedPagerExampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 38BB6F8377F5CBD51D308DB8 /* libPods-THSegmentedPagerExampleTests.a */; };
-		9918A27A1BC6AA0C00A15A77 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99C8C818198281240039193A /* Images.xcassets */; settings = {ASSET_TAGS = (); }; };
-		9918A27C1BC6AA9600A15A77 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9918A27B1BC6AA9600A15A77 /* Launch Screen.storyboard */; settings = {ASSET_TAGS = (); }; };
+		9918A27A1BC6AA0C00A15A77 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99C8C818198281240039193A /* Images.xcassets */; };
+		9918A27C1BC6AA9600A15A77 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9918A27B1BC6AA9600A15A77 /* Launch Screen.storyboard */; };
 		99C8C807198281240039193A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99C8C806198281240039193A /* Foundation.framework */; };
 		99C8C809198281240039193A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99C8C808198281240039193A /* CoreGraphics.framework */; };
 		99C8C80B198281240039193A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99C8C80A198281240039193A /* UIKit.framework */; };
@@ -254,6 +254,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 99C8C7FA198281240039193A;
@@ -488,6 +489,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "THSegmentedPagerExample/THSegmentedPagerExample-Prefix.pch";
 				INFOPLIST_FILE = "THSegmentedPagerExample/THSegmentedPagerExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "it.3bus.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -504,6 +506,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "THSegmentedPagerExample/THSegmentedPagerExample-Prefix.pch";
 				INFOPLIST_FILE = "THSegmentedPagerExample/THSegmentedPagerExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "it.3bus.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
